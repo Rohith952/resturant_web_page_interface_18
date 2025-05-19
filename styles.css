@@ -1,0 +1,145 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(images/Background2.png);
+    color: antiquewhite;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding-left:40px;
+    padding-right:50px;
+    
+}
+.links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-right:100px;
+    font-size: 20px;
+    color: orange;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: black;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+    gap:100px;
+}
+.logo{
+    font-weight: bold;
+    color: orange;
+    font-size: 30px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin-top: 50px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+    align-items: start;
+}
+.left1{
+    font-size: 50px;
+    color: orange;
+    font-family: italic
+}
+.left2{
+    font-size: 55px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left3{
+    font-size: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.left4{
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid wheat;
+    border-radius: 10px;
+}
+.food{
+    border: 3px solid wheat;
+    border-radius: 30%;
+}
+#food{
+    background-image: url(images/food.png);
+    width: 500px;
+    height: 500px;
+    background-position: cover;
+    background-size: cover;
+}
+.items{
+     display: flex;
+     padding-left: 140px;
+     margin-top: -50px;
+        gap: 25px;
+}
+#food1,#food2,#food3,#food4{
+     border: 2px solid wheat;
+     height: 100px;
+     width: 100px;
+     border-radius: 30%;
+    
+}
+#food1{
+    background-image: url(images/food1.png);
+    background-position: cover;
+    background-size: cover;
+}
+#food2{
+    background-image: url(images/food2.png);
+    background-position: cover;
+    background-size: cover;
+}
+#food3{
+    background-image: url(images/food3.png);
+    background-position: cover;
+    background-size: cover;
+}
+#food4{
+    background-image: url(images/food4.png);
+    background-position: cover;
+    background-size: cover;
+}
+.items:hover{
+    cursor: pointer;
+
+}
+#food1:hover{
+    transform: scale(1.2);
+}
+#food2:hover{
+    transform: scale(1.2);
+}
+#food3:hover{
+    transform: scale(1.2);
+}
+#food4:hover{
+    transform: scale(1.2);
+}
+#food:hover{
+    transform: scale(1.2);
+}
+.food:hover{
+    cursor: pointer;
+}
+a{
+    color: orange;
+}
